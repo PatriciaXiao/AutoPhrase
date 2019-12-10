@@ -150,7 +150,7 @@ sudo docker run -v $PWD/data:/autophrase/data -v $PWD/results:/autophrase/result
 ```
 My case
 ```shell
-sudo docker run -v $PWD/data:/autophrase/data -v $PWD/results:/autophrase/results -it \
+docker run -v $PWD/data:/autophrase/data -v $PWD/results:/autophrase/results -it \
     -e RAW_TRAIN=data/politician_words.txt \
     -e FIRST_RUN=1 -e ENABLE_POS_TAGGING=1 \
     -e MIN_SUP=30 -e THREAD=10 \
