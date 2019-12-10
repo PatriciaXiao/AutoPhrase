@@ -50,6 +50,11 @@ MacOS:
 *   g++ 6 `$ brew install gcc6`
 *   Java 8 `$ brew update; brew tap caskroom/cask; brew install Caskroom/cask/java`
 
+## Before Run
+```shell
+sh compile.sh
+```
+
 ## Default Run
 
 #### Phrase Mining Step
