@@ -5,6 +5,7 @@ RAW_TRAIN=${RAW_TRAIN:- data/politician_words.txt}
 # When FIRST_RUN is set to 1, AutoPhrase will run all preprocessing. 
 # Otherwise, AutoPhrase directly starts from the current preprocessed data in the tmp/ folder.
 FIRST_RUN=${FIRST_RUN:- 1}
+echo FIRST_RUN
 # When ENABLE_POS_TAGGING is set to 1, AutoPhrase will utilize the POS tagging in the phrase mining. 
 # Otherwise, a simple length penalty mode as the same as SegPhrase will be used.
 ENABLE_POS_TAGGING=${ENABLE_POS_TAGGING:- 1}
