@@ -1,7 +1,4 @@
 tmp/*
 bin/*
 data/DBLP.txt
-data/politician_words.txt
-tmp/case_tokenized_train.txt
-tmp/tokenized_train.txt
-tmp/raw_tokenized_train.txt
+data/politician.txt
