@@ -139,3 +139,4 @@ sudo docker run -v $PWD/data:/autophrase/data -v $PWD/results:/autophrase/result
 
 ./autophrase.sh
 ```
+
